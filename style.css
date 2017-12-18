@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+table {
+  margin-left:500px;
+  margin-top: -40px;
+  position: fixed;
+  width: 475px;
+}
+
+td {
+  height: 150px;
+  position: relative;
+  width: 150px;
+  text-align: center;
+  border: 2px solid #cccccc;
+  font-family: fantasy;
+  font-size: 80px;
+  font-weight: 200;
+}
+
+td:hover {
+  background-color: hsva(48, 73%, 90%, 0.45);
+}
+
+#gameName {
+  font-size: 40px;
+  font: Helvetica, Sans-Serif;
+  color: black;
+  margin-left: -50px;
+}
+
+#display {
+  position: fixed;
+  font-size: 30px;
+  margin-left: 700px;
+  margin-top: 575px;
+}
